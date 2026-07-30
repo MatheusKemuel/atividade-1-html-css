@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header id="header">
+        <nav>
+            <h1>Atividade 1</h1>
+            <ul>
+                <div class="nav-items">
+                    <a href="#html">
+                        <li>HTML5</li>
+                        <img src="./src/images/html-5-svgrepo-com.svg" alt="">
+                    </a>
+                </div>
+                <div class="nav-items">
+                    <a href="#css">
+                        <li>CSS3</li>
+                        <img src="./src/images/css-3-svgrepo-com.svg" alt="">
+                    </a>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="html" class="html">
+            <div class="container">
+                <div class="border-bot">
+                    <h2>.O que significa HTML</h2>
+                    <p>HTML é a linguagem que cria a estrutura de uma página na web, organizando e definindo todos os
+                        elementos que serão exibidos ao usuário.</p>
+
+                </div>
+                <div class="border-bot">
+                    <h3>.O que é TAGS em HTML</h3>
+                    <p>As tags HTML são os elementos usados para marcar e organizar o conteúdo de uma página. Elas
+                        informam
+                        ao navegador qual é a função de cada parte do documento, como um título, um parágrafo, uma
+                        imagem ou
+                        um link.</p>
+                </div>
+                <div class="border-bot">
+                    <h3>.Como define uma TAG no HTML</h3>
+                    <p>Uma tag HTML é definida por um nome escrito entre os símbolos de menor <code>&lt;</code> e maior
+                        <code>&gt;</code>. Na maioria
+                        dos casos, ela possui uma abertura e um fechamento, envolvendo o conteúdo que será exibido.
+                    </p>
+                    <pre class="code-style">
+
+                            &lt;nome-da-tag&gt;Conteúdo&lt;/nome-da-tag&gt;
+                        
+                    </pre>
+                </div>
+                <div class="border-bot">
+                    <h3>.O que são atributos em HTML</h3>
+                    <p>Os atributos HTML são informações adicionais adicionadas às tags para definir características ou
+                        comportamentos de um elemento.</p>
+                    <pre class="code-style">
+                        &lt;nome-da-tag atributo="valor"&gt;Conteúdo&lt;/nome-da-tag&gt;
+                    </pre>
+                </div>
+                <div class="border-bot">
+                    <h3>.Qual a estrutura básica em HTML</h3>
+                    <p>Todo documento HTML segue uma estrutura padrão que informa ao navegador como a página está
+                        organizada. Ela é composta pelos elementos principais: <code>&lt;!DOCTYPE
+                            html&gt;, &lt;html&gt;, &lt;head&gt; e &lt;body&gt;</code>.</p>
+                    <div class="html-struc">
+                        <img src="./src/images/Captura de tela 2026-07-30 141514.png" alt="">
+                    </div>
+                </div>
+                <div class="border-bot">
+                    <h3>.Mais algumas tags HTML</h3>
+                    <details>
+                        <summary>&lt;html&gt;</summary>
+                        <p>
+                            É a tag raiz de um documento HTML. Todo o conteúdo da página deve estar dentro dela.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>&lt;head&gt;</summary>
+                        <p>
+                            Contém informações sobre a página que não são exibidas diretamente ao usuário, como o título
+                            da aba, metadados, links para arquivos CSS e scripts.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>&lt;meta&gt;</summary>
+                        <p>
+                            Define metadados da página, como codificação de caracteres, descrição, autor e configurações
+                            para dispositivos móveis.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>&lt;title&gt;</summary>
+                        <p>
+                            Define o título da página, exibido na aba do navegador e utilizado pelos mecanismos de
+                            busca.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>&lt;body&gt;</summary>
+                        <p>
+                            Contém todo o conteúdo visível da página, como textos, imagens, links, botões, formulários e
+                            listas.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>&lt;h1&gt;</summary>
+                        <p>
+                            Representa o título principal da página. É o cabeçalho de maior importância entre as tags de
+                            título, que vão de &lt;h1&gt; até &lt;h6&gt;.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>&lt;ol&gt;</summary>
+                        <p>
+                            Cria uma lista ordenada, exibindo seus itens em ordem numérica ou alfabética.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>&lt;li&gt;</summary>
+                        <p>
+                            Representa um item de uma lista. Deve ser utilizada dentro de uma lista ordenada
+                            (&lt;ol&gt;) ou não ordenada (&lt;ul&gt;).
+                        </p>
+                    </details>
+                </div>
+        </section>
+        <section id="css" class="css">
+
+            <div class="container">
+                <div class="border-bot">
+                    <h2>O que significa CSS?</h2>
+                    <p>CSS é a sigla para Cascading Style Sheets, que em português significa Folhas de Estilo em
+                        Cascata.
+                        Ele é a linguagem responsável por definir a aparência e o estilo de uma página HTML, permitindo
+                        controlar cores, fontes, tamanhos, espaçamentos, posicionamentos, animações e o layout dos
+                        elementos.
+                    </p>
+                </div>
+                <div class="border-bot">
+                    <h2>.O que é SELETOR em CSS</h2>
+                    <p>Um seletor CSS é a parte do código responsável por identificar quais elementos HTML receberão
+                        determinado estilo.
+                        Ele informa ao navegador quais elementos devem ser modificados pelas regras de estilo definidas.
+                    </p>
+                </div>
+                <div class="border-bot">
+                    <h2>.Como define quais são os SELETORES no CSS</h2>
+                    <p>Os seletores CSS são definidos de acordo com os elementos HTML que você deseja estilizar. Eles
+                        podem ser criados utilizando o nome da tag, uma classe, um identificador <code>(id)</code> ou
+                        outros padrões
+                        de seleção.</p>
+                    <pre class="code-style">
+
+                        seletor {
+                            propriedade: valor;
+                        }
+                    </pre>
+                </div>
+                <div class="border-bot">
+                    <h2>.Qual a estrutura básica em CSS</h2>
+                    <p>A estrutura básica do CSS é formada por um seletor e um conjunto de declarações de estilo. Essas
+                        declarações definem quais propriedades serão alteradas e quais valores serão aplicados aos
+                        elementos HTML.</p>
+
+                    <h3 class="mt">Estrutura Básica:</h3>
+                    <pre class="code-style">
+                        seletor {
+                            propriedade: valor;
+                        }</pre>
+                    <h3 class="mt">Exemplo:</h3>
+                    <pre class="code-style">
+                            h1 {
+                                color: blue;
+                                font-size: 32px;
+                            }</pre>
+                </div>
+                <div class="border-bot">
+                    <h2>.Qual a hierarquia de prioridade nos seletores em CSS</h2>
+                    <p>No CSS, quando existem várias regras aplicadas ao mesmo elemento, o navegador utiliza uma ordem
+                        de prioridade para decidir qual estilo será aplicado. Essa prioridade é chamada de
+                        especificidade CSS.<br>A prioridade dos seletores CSS segue a ordem: Inline → ID →
+                        Classe/Atributo/Pseudo-classe → Tag → Universal. Quanto mais específico for o seletor, maior
+                        será sua prioridade.</p>
+                    <p>Existe também o <code>!important</code>, que força uma regra a ter prioridade:</p>
+
+                </div>
+                <div class="border-bot">
+                    <h2>.Mais algumas tags CSS</h2>
+                    <details>
+                        <summary>width</summary>
+                        <p>
+                            Define a largura de um elemento HTML. Permite controlar o espaço horizontal que o elemento
+                            irá ocupar na página.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>height</summary>
+                        <p>
+                            Define a altura de um elemento HTML. Controla o espaço vertical que o elemento irá ocupar.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>font-size</summary>
+                        <p>
+                            Define o tamanho da fonte dos textos. Pode ser utilizado com diferentes unidades de medida,
+                            como pixels (px), em, rem ou porcentagem.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>text-decoration</summary>
+                        <p>
+                            Define decorações aplicadas aos textos, como sublinhado, linha sobre o texto ou remoção de
+                            decoração.
+                        </p>
+
+                        <p>
+                            Exemplos: underline (sublinhado), line-through (riscado) e none (sem decoração).
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>text-transform</summary>
+                        <p>
+                            Controla a transformação das letras de um texto, permitindo alterar para maiúsculas,
+                            minúsculas ou deixar a primeira letra de cada palavra em maiúscula.
+                        </p>
+
+                        <p>
+                            Exemplos: uppercase, lowercase e capitalize.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>color</summary>
+                        <p>
+                            Define a cor do texto de um elemento. Pode receber valores em nomes de cores, hexadecimal,
+                            RGB, entre outros formatos.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>border</summary>
+                        <p>
+                            Define uma borda ao redor de um elemento, permitindo configurar sua espessura, estilo e cor.
+                        </p>
+
+                        <p>
+                            Exemplo: border: 1px solid black;
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>margin</summary>
+                        <p>
+                            Define o espaçamento externo de um elemento, ou seja, a distância entre ele e outros
+                            elementos ao seu redor.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>padding</summary>
+                        <p>
+                            Define o espaçamento interno de um elemento, ou seja, a distância entre o conteúdo e a borda
+                            do próprio elemento.
+                        </p>
+                    </details>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Feito por <a href="">Matheus Kemuel&copy;</a></p>
+        <div class="btn">
+            <a href="#header"><p>Voltar ao Início</p></a>
+        </div>
+    </footer>
+</body>
+
+</html>
