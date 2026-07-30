@@ -56,7 +56,7 @@ ul a img {
 }
 
 main {
-    width: 1440px;
+    max-width: 1440px;
     background-color: #b8dfa3;
     margin: 10px auto 0;
     padding: 15px;
@@ -114,7 +114,7 @@ code {
 }
 
 .html-struc img {
-    width: 600px;
+    max-width: 600px;
     border-radius: 10px;
     box-shadow: 1.5px 3px 15px #000000;
 }
@@ -162,4 +162,20 @@ footer a {
     margin-top: 5px;
     border-radius: 5px;
     color: #2f7d23;
+}
+
+@media screen and (max-width: 660px) {
+  .html-struc img {
+    max-width: 300px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .html-struc img {
+    max-width: 200px;
+  }
+}
+
+pre {
+    overflow-x: auto;
+    max-width: 100%;
 }
