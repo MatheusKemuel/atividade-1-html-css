@@ -18,6 +18,9 @@ body {
 header {
     background-color: #2f7d23;
     height: 70px;
+    width: 100vw;
+    position: fixed;
+    top: 0;
 }
 
 h1 {
@@ -58,7 +61,7 @@ ul a img {
 main {
     max-width: 1440px;
     background-color: #b8dfa3;
-    margin: 10px auto 0;
+    margin: 100px auto 0;
     padding: 15px;
     border-radius: 15px;
 }
