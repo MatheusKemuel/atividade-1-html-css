@@ -17,7 +17,7 @@ body {
 
 header {
     background-color: #2f7d23;
-    height: 60px;
+    height: 70px;
 }
 
 h1 {
@@ -46,7 +46,7 @@ a {
 }
 
 ul a img {
-    width: 30px;
+    width: 50px;
 }
 
 .nav-items a {
@@ -56,7 +56,7 @@ ul a img {
 }
 
 main {
-    width: 800px;
+    width: 1440px;
     background-color: #b8dfa3;
     margin: 10px auto 0;
     padding: 15px;
@@ -81,7 +81,7 @@ section {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    font-size: small;
+   
 }
 
 .container p {
@@ -114,7 +114,7 @@ code {
 }
 
 .html-struc img {
-    width: 300px;
+    width: 600px;
     border-radius: 10px;
     box-shadow: 1.5px 3px 15px #000000;
 }
@@ -131,7 +131,7 @@ details {
 summary {
     cursor: pointer;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 32px;
 }
 
 .mt {
@@ -139,12 +139,12 @@ summary {
 }
 
 footer {
-    height: 60px;
+    height: 100px;
     background-color: #2f7d23;
     color: #e6ffce;
     text-align: center;
     padding: 15px;
-    font-size: xx-small;
+
 }
 footer a {
     color: #e6ffce;   
@@ -152,8 +152,8 @@ footer a {
 
 .btn a{
     background-color: #b8dfa3;
-    width: 100px;
-    height: 25px;
+    width: 125px;
+    height: 50px;
     margin: 0 auto;
     text-align: center;
     display: flex;
